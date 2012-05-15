@@ -1,0 +1,15 @@
+doctype xml
+rss(version='2.0')
+	channel
+		title Seaga Specials
+		description Specials offered by Seaga, including new vending machines, coffee equipment, or sales.
+		link http://click.seagamfg.com
+		last= new Date()
+		pub= new Date()
+
+		- for campaign in campaigns
+			item
+				title= campaign.title
+				description= campaign.columnText1
+				link= 'http://seagamfg.com/e/'+campaign.slug
+				guid= campaign.id

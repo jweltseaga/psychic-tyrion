@@ -1,0 +1,12 @@
+.page-header
+  h1 #{brand.name}
+
+div(about=path_to.brand(brand))
+  .field(property='phone')= brand.phone
+  .field(property='defaultEmail')= brand.defaultEmail
+  .field(property='image')= brand.image
+
+.actions
+  != link_to('Edit', path_to.edit_brand(brand), {class: 'btn primary'}) + ' '
+  != link_to('Delete', path_to.brand(brand), {class: 'btn danger', method: 'delete', remote: true, jsonp: '(function (u) { location.href = u; })'})
+  != link_to('Index', path_to.brands())

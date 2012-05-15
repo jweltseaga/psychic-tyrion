@@ -1,0 +1,219 @@
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+Ajax State :: undefined
+{ title: 'Seaga Caffè',
+  slug: 'seaga-caffe',
+  columnHeader1: 'Unparalleled Variety',
+  columnText1: 'Let our machines propel you into the world of fine coffee!  Italian espresso, cappuccinos, or the best cup of black coffee are easily made with our Saeco and Lavazza equipment.',
+  columnHeader2: 'A True Italian Coffee Experience!',
+  columnText2: 'Seaga Caffè provides the best experience possible, every time with our internationally renowned Lavazza and Saeco coffee equipment.  \r\n',
+  columnHeader3: 'One Source. All Solutions',
+  columnText3: 'Seaga Caffè can offer you the complete espresso and coffee experience. Rely on us for equipment, producdt, training, service and maintenance. Our dedicated support team will insure that your coffee is always available.',
+  salesEmail: 'info@seagacaffe.co.uk' }
+null
+null
+null
+null
+Ajax State :: undefined
+{ title: 'Seaga Caffè',
+  slug: 'seaga-caffe',
+  columnHeader1: 'Unparalleled Variety',
+  columnText1: 'Let our machines propel you into the world of fine coffee!  Italian espresso, cappuccinos, or the best cup of black coffee are easily made with our Saeco and Lavazza equipment.',
+  columnHeader2: 'A True Italian Coffee Experience!',
+  columnText2: 'Seaga Caffè provides the best experience possible, every time with our internationally renowned Lavazza and Saeco coffee equipment.  \r\n',
+  columnHeader3: 'One Source. All Solutions',
+  columnText3: 'Seaga Caffè can offer you the complete espresso and coffee experience. Rely on us for equipment, producdt, training, service and maintenance. Our dedicated support team will insure that your coffee is always available.',
+  salesEmail: 'info@seagacaffe.co.uk',
+  imgUrl: '4fa2f4a1ed34b9474d00002c-imgUrl.jpg' }
+null
+null
+null
+null
+Ajax State :: undefined
+{ title: 'Seaga Caffè',
+  slug: 'seaga-caffe',
+  columnHeader1: 'Unparalleled Variety',
+  columnText1: 'Let our machines propel you into the world of fine coffee!  Italian espresso, cappuccinos, or the best cup of black coffee are easily made with our Saeco and Lavazza equipment.',
+  columnHeader2: 'A True Italian Coffee Experience!',
+  columnText2: 'Seaga Caffè provides the best experience possible, every time with our internationally renowned Lavazza and Saeco coffee equipment.  \r\n',
+  columnHeader3: 'One Source. All Solutions',
+  columnText3: 'Seaga Caffè can offer you the complete espresso and coffee experience. Rely on us for equipment, producdt, training, service and maintenance. Our dedicated support team will insure that your coffee is always available.',
+  salesEmail: 'info@seagacaffe.co.uk',
+  imgUrl: '4fa2f4a1ed34b9474d00002c-imgUrl.jpg' }
+null
+null
+null
+null
+null
+Ajax State :: true
+{ brand: '4fa2f07d4767e8da4c00007b' }
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+null
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+TypeError: Bad argument
+    at Object.unlink (fs.js:449:11)
+    at Object.<anonymous> (/home/production/webapps/node/campaignServer/app/controllers/campaigns_controller.coffee:60:16)
+    at Object.<anonymous> (/home/production/webapps/node/campaignServer/node_modules/railway/lib/controller.js:372:20)
+    at Array.0 (/home/production/webapps/node/campaignServer/node_modules/railway/lib/controller.js:349:24)
+    at EventEmitter._tickCallback (node.js:192:40)
+Railway server listening on port 3004 within production environment
+null
+null
+null
+Railway server listening on port 3004 within production environment
+null
+null
+null
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+TypeError: Bad argument
+    at Object.unlink (fs.js:449:11)
+    at Object.<anonymous> (/home/production/webapps/node/campaignServer/app/controllers/campaigns_controller.coffee:60:16)
+    at Object.<anonymous> (/home/production/webapps/node/campaignServer/node_modules/railway/lib/controller.js:372:20)
+    at Array.0 (/home/production/webapps/node/campaignServer/node_modules/railway/lib/controller.js:349:24)
+    at EventEmitter._tickCallback (node.js:192:40)
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+null
+null
+null
+null
+null
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+TypeError: Cannot read property 'brand' of undefined
+    at /home/production/webapps/node/campaignServer/app/controllers/client_controller.coffee:15:39
+    at /home/production/webapps/node/campaignServer/node_modules/jugglingdb/lib/abstract-class.js:331:13
+    at Promise.<anonymous> (/home/production/webapps/node/campaignServer/node_modules/jugglingdb/lib/adapters/mongoose.js:177:9)
+    at Promise.<anonymous> (/home/production/webapps/node/campaignServer/node_modules/mongoose/lib/promise.js:120:8)
+    at Promise.<anonymous> (events.js:67:17)
+    at Promise.emit (/home/production/webapps/node/campaignServer/node_modules/mongoose/lib/promise.js:59:38)
+    at Promise.complete (/home/production/webapps/node/campaignServer/node_modules/mongoose/lib/promise.js:70:20)
+    at Promise.resolve (/home/production/webapps/node/campaignServer/node_modules/mongoose/lib/promise.js:138:15)
+    at Promise.<anonymous> (native)
+    at Promise.<anonymous> (/home/production/webapps/node/campaignServer/node_modules/mongoose/lib/promise.js:120:8)
+Railway server listening on port 3004 within production environment
+<table width="100%" cellspacing="1" cellpadding="10"><tbody><tr width="80%"><td><table width="100%" cellspacing="1" cellpadding="10" style="border: 1px solid #c0c0c0; background: #f8f8f8;"><tbody style="padding: 10px;"><tr><th colspan="2" width="100%" style="font: italic 20px Georgia,;" times="Times" new="New" roman="Roman" 1px="1px" solid="solid">Lead From Campaign | Introducing The New Atlante! </th></tr><tr style="border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; margin: 2px;"><td width="12%" style="background: #f8f8f8; color: #000; padding: 5px; text-align: right; border-right: 1px solid #c0c0c0;">Name</td><td width="78%" style="background: #fff; color: #333; padding: 5px; border-top: 1px solid #c0c0c0;">Gary Sutherland</td></tr><tr style="border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; margin: 2px;"><td width="12%" style="background: #f8f8f8; color: #000; padding: 5px; text-align: right; border-right: 1px solid #c0c0c0;">Phone</td><td width="78%" style="background: #fff; color: #333; padding: 5px;">204-999-4017</td></tr><tr style="border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; margin: 2px;"><td width="12%" style="background: #f8f8f8; color: #000; padding: 5px; text-align: right; border-right: 1px solid #c0c0c0;">Email</td><td width="78%" style="background: #fff; color: #333; padding: 5px;">info@joe2go.ca</td></tr><tr style="border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; margin: 2px;"><td width="12%" style="background: #f8f8f8; color: #000; padding: 5px; text-align: right; border-right: 1px solid #c0c0c0;">Check Out This Campaign!</td><td width="78%" style="background: #fff; color: #333; padding: 5px;"><a href="http://click.seagamfg.com/e/atlante-premiere">Introducing The New Atlante! </a></td></tr></tbody></table></td></tr></tbody></table>
+---- Success! ----
+{ failedRecipients: [],
+  message: '250 2.6.0 <1336686009029.25104f8f@Nodemailer> [InternalId=1417768] Queued mail for delivery' }
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+<table width="100%" cellspacing="1" cellpadding="10"><tbody><tr width="80%"><td><table width="100%" cellspacing="1" cellpadding="10" style="border: 1px solid #c0c0c0; background: #f8f8f8;"><tbody style="padding: 10px;"><tr><th colspan="2" width="100%" style="font: italic 20px Georgia,;" times="Times" new="New" roman="Roman" 1px="1px" solid="solid">Lead From Campaign | Introducing The New Atlante! </th></tr><tr style="border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; margin: 2px;"><td width="12%" style="background: #f8f8f8; color: #000; padding: 5px; text-align: right; border-right: 1px solid #c0c0c0;">Name</td><td width="78%" style="background: #fff; color: #333; padding: 5px; border-top: 1px solid #c0c0c0;">Piotr Smolinski</td></tr><tr style="border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; margin: 2px;"><td width="12%" style="background: #f8f8f8; color: #000; padding: 5px; text-align: right; border-right: 1px solid #c0c0c0;">Phone</td><td width="78%" style="background: #fff; color: #333; padding: 5px;">610-481-0315</td></tr><tr style="border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; margin: 2px;"><td width="12%" style="background: #f8f8f8; color: #000; padding: 5px; text-align: right; border-right: 1px solid #c0c0c0;">Email</td><td width="78%" style="background: #fff; color: #333; padding: 5px;">piotr.globetrotter@gmail.com</td></tr><tr style="border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; margin: 2px;"><td width="12%" style="background: #f8f8f8; color: #000; padding: 5px; text-align: right; border-right: 1px solid #c0c0c0;">Check Out This Campaign!</td><td width="78%" style="background: #fff; color: #333; padding: 5px;"><a href="http://click.seagamfg.com/e/atlante-premiere">Introducing The New Atlante! </a></td></tr></tbody></table></td></tr></tbody></table>
+---- Success! ----
+{ failedRecipients: [],
+  message: '250 2.6.0 <1336787460560.52e2bade@Nodemailer> [InternalId=1434745] Queued mail for delivery' }
+
+node.js:201
+        throw e; // process.nextTick error, or 'error' event on first tick
+              ^
+TypeError: Cannot read property 'brand' of undefined
+    at /home/production/webapps/node/campaignServer/app/controllers/client_controller.coffee:15:39
+    at /home/production/webapps/node/campaignServer/node_modules/jugglingdb/lib/abstract-class.js:331:13
+    at Promise.<anonymous> (/home/production/webapps/node/campaignServer/node_modules/jugglingdb/lib/adapters/mongoose.js:177:9)
+    at Promise.<anonymous> (/home/production/webapps/node/campaignServer/node_modules/mongoose/lib/promise.js:120:8)
+    at Promise.<anonymous> (events.js:67:17)
+    at Promise.emit (/home/production/webapps/node/campaignServer/node_modules/mongoose/lib/promise.js:59:38)
+    at Promise.complete (/home/production/webapps/node/campaignServer/node_modules/mongoose/lib/promise.js:70:20)
+    at Promise.resolve (/home/production/webapps/node/campaignServer/node_modules/mongoose/lib/promise.js:138:15)
+    at Promise.<anonymous> (native)
+    at Promise.<anonymous> (/home/production/webapps/node/campaignServer/node_modules/mongoose/lib/promise.js:120:8)
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+Error in coffee code compilation in file /home/production/webapps/node/campaignServer/app/controllers/client_controller.coffee
+Error in coffee code compilation in file /home/production/webapps/node/campaignServer/app/controllers/client_controller.coffee
+Railway server listening on port 3004 within production environment
+Error in coffee code compilation in file /home/production/webapps/node/campaignServer/app/controllers/client_controller.coffee
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+Railway server listening on port 3004 within production environment
+null
+null
+null
+null
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment
+Railway server listening on port 3004 within production environment

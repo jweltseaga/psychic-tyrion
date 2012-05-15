@@ -1,0 +1,13 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/dep.css')
+    != csrf_meta_tag()
+  body!= body
+  script
+    var host = '#{ host }'
+  script(src='/javascripts/lib/jquery.min.js')
+  script(src='/javascripts/lib/underscore.min.js')
+  script(src='/javascripts/lib/backbone.js')
+  script(src='/javascripts/dep.js')

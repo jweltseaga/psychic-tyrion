@@ -1,0 +1,14 @@
+.page-header
+  h1= campaign.title
+
+div(about=path_to.campaign(campaign))
+  .field(property='imgUrl')= campaign.imgUrl
+  .field(property='slug')= campaign.slug
+  .field(property='salesEmail')= campaign.salesEmail
+  .field(property='campaignText')= campaign.campaignText
+  
+
+.actions
+  != link_to('Edit', path_to.edit_campaign(campaign), {class: 'action primary'}) + ' '
+  != link_to('Delete', path_to.campaign(campaign), {class: 'action danger', method: 'delete', remote: true, jsonp: '(function (u) { location.href = u; })'})
+  != link_to('Index', path_to.campaigns(), {class:'action info'})

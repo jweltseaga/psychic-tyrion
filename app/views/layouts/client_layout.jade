@@ -1,0 +1,37 @@
+!!! 5
+html
+  head
+    title= campaign.title
+    != stylesheet_link_tag('reset', 'application')
+    != javascript_include_tag('https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js', 'rails', 'application')
+    != csrf_meta_tag()
+  body
+    #overlay
+    #errorMessage.flash
+      h1 That's An Error!
+      p
+        | We love to help our customers! 
+      p
+        | We just need your name, phone number, and email to make sure we can reach you.
+    #ajax-info.flash 
+    != body
+    //
+      Piwik 
+    script(type='text/javascript')
+      var pkBaseURL = (("https:" == document.location.protocol) ? "https://tools.seagamfg.com/analytics/" : "http://tools.seagamfg.com/analytics/");
+      document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    script(type='text/javascript')
+      try {
+      var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 7);
+      var domain = '*.'+document.domain.split('.').slice(1).join('.');
+      piwikTracker.setCookieDomain(domain);
+      piwikTracker.setDomains(domain);
+      piwikTracker.setDocumentTitle(document.domain+" | "+document.title);
+      piwikTracker.trackPageView();
+      piwikTracker.enableLinkTracking();
+      } catch( err ) {}
+    noscript
+      p
+        img(src='http://tools.seagamfg.com/analytics/piwik.php?idsite=1', style='border: 0;', alt='')
+    //
+       End Piwik Tracking Code 

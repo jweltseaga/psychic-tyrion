@@ -1,0 +1,14 @@
+.page-header
+	h1 Users
+
+.content
+	- for user in users
+		.row
+			.span= user.firstName+' '+user.lastName
+			.span= user.email
+			.span
+				!= link_to('Edit', path_to.edit_user(user), {class: 'action info'}) + ' '
+				!= link_to('Delete', path_to.user(user), {class: 'action danger', method: 'delete', remote: true, jsonp: '(function (u) {location.href = u;})'})
+
+.actions
+	!= link_to('New', path_to.new_user(), {class: 'action primary'})

@@ -1,0 +1,398 @@
+box-shadow()
+    -webkit-box-shadow arguments
+    -moz-box-shadow arguments
+    box-shadow arguments
+    html.ie8 &,
+    html.ie7 &,
+    html.ie6 &
+      border 2px solid arguments[length(arguments) - 1]
+
+body,
+html
+  background: #254da5
+  font-family: Arial, Helvetica, sans-serif
+
+*
+  margin: 0
+  padding: 0
+  outline: 0
+  border: 0
+
+a
+  text-decoration: none
+
+div#wrapper
+  background: #fff
+  position: relative
+  width: 778px
+  margin: 0 auto
+  min-height: 710px
+
+div#top_nav
+  position: relative
+  z-index: 5
+  margin-top: 0px
+  height: 31px
+  width: 778px
+
+.top_nav
+  background: #0d3692
+  font-family: Arial, Helvetica, sans-serif
+  font-size: 0.7em
+  line-height: 16px
+  padding: 0px
+  margin: 0
+  height: 31px
+  width: 100%
+  list-style: none
+
+.top_nav li
+  float: left
+  padding: 0px
+  margin: 0px
+  margin-top: 9px
+  position: relative
+  display: block
+
+.top_nav li a
+  width: 140px
+  text-align: left
+  display: block
+  padding: 4px 0px 6px 15px
+  padding-bottom: 0px
+  color: #003e7a
+  background: url("../images/top_arrow.png") no-repeat 1px -2px
+  text-decoration: none
+
+.top_nav li a:hover
+  color: #002346
+  text-decoration: none
+
+.top_nav ul
+  padding: 0px
+  text-align: left
+  margin: 0px
+  list-style: none
+  position: absolute
+  left: -9999px
+  opacity: 0
+  -webkit-transition: 0.25s linear opacity
+
+.top_nav ul li
+  margin: 0px
+  padding-top: 0px
+  padding-left: 0px
+  float: none
+
+.top_nav ul a
+  padding-left: 3px
+  padding-right: 12px
+  margin-left: 0px
+  text-align: left
+  white-space: nowrap
+  display: block
+
+.top_nav li:hover ul
+  left: 0
+  background: #a3e0f2
+  opacity: 1
+
+.top_nav li:hover a
+  text-decoration: none
+
+.top_nav li:hover ul a
+  text-decoration: none
+  background: none
+  -webkit-transition: -webkit-transform 0.075s linear
+
+.top_nav li:hover ul li a:hover
+  background: #a3e0f2
+
+div#header
+  position: relative
+  width: 778px
+  height: 146px
+  border-bottom: 1px solid #1b396b
+
+div#header div
+  float: left
+  background-repeat: no-repeat
+
+div#header 
+  .top
+    height: 126px
+
+  .bottom_accent
+    height: 20px
+    width: 778px
+    background: url("../images/5.jpg")
+
+  .left_accent
+    background: url("../images/2.jpg")
+    width: 224px
+
+  .middle_accent
+    background: url("../images/3.jpg")
+    width: 258px
+
+  .right_accent
+    background: url("../images/4.jpg")
+    width: 296px
+
+  a[rel="home"]
+    width: 48px
+    height: 41px
+    display: block
+    background: url("../images/home.jpg")
+    position: absolute
+    bottom: -43px
+    left: 5px
+    z-index: 5
+
+h1#page_title
+  position: relative
+  color: #254da5
+  width: 728px
+  height: 32px
+  display: block
+  background: #fff
+  padding-right: 50px
+  padding-top: 10px
+  font-size: 22px
+  text-align: right
+  border-bottom: 3px solid #3479c7
+
+div#left_column
+  float left
+  width 200px
+  padding-left 20px
+
+ul#left_nav
+  margin-top 20px
+  padding-left: 0px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  width: 168px;
+  border: 1px solid white;
+  background-color: #B4E3FF;
+
+  li
+    padding: 0px;
+    margin: 0px;
+    height: 25px;
+    margin-left: -1px;
+    border-left: 1px solid white;
+    width: 168px;
+    list-style-type none
+
+  a
+    font-size 11px
+    display block
+    -webkit-transition: all 0.3s
+    -moz-transition: all 0.3s
+    -o-transition: all 0.3s
+    transition: all 0.3s
+    margin: 0px;
+    padding: 5px 20px 5px 10px;
+    color: #2A57BA;
+    text-align: right;
+
+    &:hover
+      background #89c2e0  
+
+
+div#content
+  position: relative
+  background: #8ac2e5 url("../images/sub6.jpg") no-repeat bottom right
+  padding-top: 20px
+  min-height: 590px
+
+div#footer
+  position: relative
+  height: 91px
+  background: #254da5 url("../images/sub7.jpg") no-repeat
+  margin-bottom: 20px
+  ul#bottom_nav
+    border-left 2px solid darken(#254da5,15)
+    position: absolute
+    list-style-type: none
+    top: 71px
+    left: 0px
+    width: 480px
+    height: 20px
+    background: #0d3692
+    li
+      width: 90px
+      display: inline-block
+      a
+        display: block
+        text-align: center
+        color: #eff3ff
+        font-size: 9px
+        line-height 20px
+
+span#copy_right
+  font-size: 9px
+  position: absolute
+  bottom: 0px
+  right: 0px
+  color: #fff
+
+div#info
+  position: relative
+  margin-left: 200px
+  min-height: 650px
+  height: 100%
+  padding-bottom 75px
+
+/*
+  Special Styling
+*/
+.specials
+  width 0px
+  height 300px
+  float left
+  img#campaign-special
+    position absolute
+    top 0px
+    left 50px
+.right
+  width 250px
+  float left
+  margin-top 20px
+  margin-left 265px
+  form#contact
+    width 250px
+    border 1px solid #fff
+    padding 15px 0px
+    background #B4E3FF
+    ul
+      list-style-type none
+      li
+        clear both
+        position relative
+        width 244px
+        height 20px
+        padding 3px
+        label
+          color #254da5
+          font-size 10px
+          text-align right
+          padding-right 10px
+          line-height 22px
+          width 65px
+          display block
+          float left
+        input
+          line-height 20px
+          padding 2px 3px
+          display block
+          float left
+          width 155px
+          background rgba(#254da5,.15)
+          color lighten(#254da5,15)
+        &.actions
+          margin-top 10px
+          padding 10px
+          a
+            display block
+            font-size 12px
+            border 1px solid #fff
+            padding 5px
+            text-align center
+            width 150px
+            margin 0 auto
+            background #039
+            font-weight bold 
+            -webkit-transition: all 0.3s
+            -moz-transition: all 0.3s
+            -o-transition: all 0.3s
+            transition: all 0.3s
+            color #fff
+            &:hover
+              background: darken(#254da5, 5)
+              background: rgba(darken(#254da5,5),.15)
+              color darken(#254da4,5)
+      li.notify
+        height 60px
+        em
+          font-size 9px
+          text-align center
+          display block
+          color darken(#254da5,15)
+          padding 5px 10px
+        .bold
+          font-weight bold
+          font-size 12px
+.bottom-banner
+  padding-top 20px
+  ul
+    list-style-type none
+    li
+      float left
+      border 1px solid darken(#254da5,25)
+      display block
+      width 175px
+      margin-right 5px
+      height 330px
+      background rgba(#254da5,.65)
+      &:first-child
+        margin-left 5px
+      h1
+        color darken(#254da5,25)
+        font-size 16px
+        text-align center
+        padding 5px 0px
+        border-bottom 1px solid rgba(#eff3ff,.15)
+      .img-holder
+        padding 10px
+        height 200px
+      p
+        margin-top 25px
+        text-align center
+        padding 1px
+        display block
+        font-size 10px
+        color darken(#254da5,25)
+        font-weight bold
+      img
+        max-height 200px
+        margin-left 15px
+
+
+#overlay
+  position fixed
+  height 100%
+  width 100%
+  z-index 49999
+  background #333
+  background rgba(#333,.65)
+  display none
+.flash
+  position fixed
+  border 1px solid #254da5
+  padding-bottom 10px
+  background #254da5
+  background rgba(darken(#254da5,25), .85)
+  width 600px
+  left 50%
+  margin-left -300px
+  top 33%
+  z-index 50000
+  box-shadow -6px 8px 12px rgba(darken(#254da5,35), .85)
+  display none
+  h1 
+    font-weight:normal
+    border-bottom 1px solid rgba(#254da5,.25) 
+    padding 5px 
+    text-align center
+    color #f5f5f5
+    margin-bottom 10px
+  p
+    padding 5px
+    font-size 12px
+    color #f5f5f5
+    text-align center
+
+.hidden
+  display none

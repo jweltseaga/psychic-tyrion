@@ -1,0 +1,22 @@
+table(width='100%', cellspacing='1', cellpadding='10')
+  tbody
+    tr(width='80%')
+      td
+        table(width='100%', cellspacing='1', cellpadding='10', style='border: 1px solid #c0c0c0; background: #f8f8f8;')
+            tbody(style='padding: 10px;')
+                tr
+                  th(colspan='2', width='100%', style='font: italic 20px Georgia,;', times='Times', new='New', roman='Roman', 1px='1px', solid='solid') Lead From Campaign | #{locals.cInfo.title}
+                tr(style='border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; margin: 2px;')
+                  td(width='12%', style='background: #f8f8f8; color: #000; padding: 5px; text-align: right; border-right: 1px solid #c0c0c0;') Name
+                  td(width='78%', style='background: #fff; color: #333; padding: 5px; border-top: 1px solid #c0c0c0;') #{locals.instance.name}
+                tr(style='border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; margin: 2px;')
+                  td(width='12%', style='background: #f8f8f8; color: #000; padding: 5px; text-align: right; border-right: 1px solid #c0c0c0;') Phone
+                  td(width='78%', style='background: #fff; color: #333; padding: 5px;') #{locals.instance.phone}
+                tr(style='border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; margin: 2px;')
+                  td(width='12%', style='background: #f8f8f8; color: #000; padding: 5px; text-align: right; border-right: 1px solid #c0c0c0;') Email
+                  td(width='78%', style='background: #fff; color: #333; padding: 5px;') #{locals.instance.email}
+                tr(style='border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; margin: 2px;')
+                  td(width='12%', style='background: #f8f8f8; color: #000; padding: 5px; text-align: right; border-right: 1px solid #c0c0c0;') Check Out This Campaign!
+                  td(width='78%', style='background: #fff; color: #333; padding: 5px;')
+                    a(href="http://click.seagamfg.com/e/#{locals.cInfo.slug}") #{locals.cInfo.title}
+

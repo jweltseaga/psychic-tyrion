@@ -1,0 +1,57 @@
+-if(campaign.imgUrl){
+  img(src="/uploads/#{campaign.imgUrl}").current-campaign-banner
+- }
+
+.clearfix
+  != form.label("title")
+  .input
+    != form.input("title")
+
+
+.clearfix
+  != form.label("slug")
+  .input
+    != form.input("slug", {placeholder: 'url for humanization'})
+
+.clearfix
+  != form.label("Banner Image <span class='info'> (Width: 982px) </span>")
+  .input
+     != form.input("imgUrl", {type: "file"})
+
+.row
+  
+  .span3
+    != form.label("First Column <span class='info'> Icon images have a max-width of 200px </span>")
+    .input
+      != form.input("columnHeader1")
+    .input
+      != form.textarea("columnText1")
+    .input
+     != form.input("columnImage1", {type: "file"})
+    
+  .span3
+    != form.label("Second Column")
+    .input
+      != form.input("columnHeader2")
+    .input
+      != form.textarea("columnText2")
+    .input
+     != form.input("columnImage2", {type: "file"})
+  
+  .span3
+    != form.label("Third Column")
+    .input
+      != form.input("columnHeader3")
+    .input
+      != form.textarea("columnText3")
+    .input
+     != form.input("columnImage3", {type: "file"}) 
+  
+
+
+.clearfix
+  != form.label("Email For Leads")
+  .input-append
+    != form.input("salesEmail", {placeholder: 'example@seagamfg.com'})
+
+

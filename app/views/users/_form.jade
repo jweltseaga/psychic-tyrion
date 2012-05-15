@@ -1,0 +1,21 @@
+.clearfix
+  != form.label("First Name")
+  .input
+    != form.input("firstName")
+.clearfix
+  != form.label("Last Name")
+  .input
+    != form.input("lastName")
+.clearfix
+  != form.label("Email")
+  .input
+    != form.input("email")
+.clearfix
+  != form.label("Super User")
+  .input
+    != form.checkbox("superUser")
+.clearfix
+  != form.label("Password")
+  .input
+    != form.input("passwordSet", {type: 'password'})
+    != form.input("passwordCheck", {type: 'password'})

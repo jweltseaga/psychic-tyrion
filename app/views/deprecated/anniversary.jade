@@ -1,0 +1,105 @@
+#wrapper
+  #header
+    .left_accent.top   
+    .middle_accent.top  
+    .right_accent.top  
+    .bottom_accent      
+    a#home(rel='home', href='#{cdn}', target="_blank")  
+  h1#page_title=title
+  #content
+    #left_column
+      ul#left_nav
+        li
+          a.style16(href='#{cdn}/collection.html', target="_blank") The Premium Collection
+        li
+          a.style16(href='#{cdn}/saeco_coffee_vending_machines.html', target="_blank") Coffee Vending Solutions
+        li
+          a.style16(href='#{cdn}/vending.html', target="_blank") Electronic Vending
+        li
+          a.style16(href='#{cdn}/specialty_vending.html', target="_blank") Specialty Vending
+        li
+          a.style16(href='#{cdn}/mechanical_vending.html', target="_blank") Mechanical Vending
+        li
+          a.style16(href='#{cdn}/changer.html', target="_blank") Bill Changers 
+        li
+          a.style16(href='#{cdn}/vending_accessories.html', target="_blank") Vending Accessories
+        li
+          a.style16(href='#{cdn}/gumball.html', target="_blank") Bulk Vending
+    #info
+      .specials
+        img(src="/images/vc730_special.png")#campaign-special
+      .right
+        form(action="/submit")#contact
+          input(name='campaign', value='VendingHQ-Anniversary').hidden
+          ul
+            li.name
+              label(for='name') Name
+              input(name='name')#name
+            li.email
+              label(for='email') Email
+              input(name='email')#email
+            li.phone
+              label(for='phone') Phone
+              input(name='phone')#phone
+            li.actions
+              a(href="#submit").pwk_conversion#form-submit Let's Get Started!
+            li.notify
+                em We never share information without your permission.
+                em.bold Not a fan of email?  No problem!  
+                em.bold Just call us at 815-297-9500 
+      .clear(style="clear:both;")
+      .bottom-banner
+        ul.sub-list
+          li
+            h1 9-5 Combo
+            .img-holder
+              img(src="/images/nine-five.png")
+            p
+              | Versatility With Value
+          li
+            h1 SP430R
+            .img-holder
+              img(src="/images/sp430r.png")
+            p
+              | Small Footprint, Great Selection
+          li
+            h1 SP536R
+            .img-holder
+              img(src="/images/sp536r_right.png")
+            p
+              | Superb Product Capacity
+
+                
+  #footer
+    ul#bottom_nav
+      li
+        a(href='#{cdn}/index.html', target="_blank") Home
+      li
+        a(href='#{cdn}/about.html', target="_blank") About Seaga
+      li
+        a(href='#{cdn}/opportunity.html', target="_blank") Opportunities
+      li
+        a(href='#{cdn}/contact.html', target="_blank") Contact Us
+      li
+        a(href='#{cdn}/manuals.htm', target="_blank") Operator's Manuals
+    span#copy_right © 2011 Seaga - All rights reserved
+
+//
+   Piwik 
+script(type='text/javascript')
+  var pkBaseURL = (("https:" == document.location.protocol) ? "https://tools.seagamfg.com/analytics/" : "http://tools.seagamfg.com/analytics/");
+  document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+script(type='text/javascript')
+  try {
+  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 7);
+  piwikTracker.setCookieDomain('*.seagamfg.com');
+  piwikTracker.setDomains('*.seagamfg.com');
+  piwikTracker.setCampaignNameKey('campaign'); 
+  piwikTracker.trackPageView();
+  piwikTracker.enableLinkTracking();
+  } catch( err ) {}
+noscript
+  p
+    img(src='http://tools.seagamfg.com/analytics/piwik.php?idsite=1', style='border: 0;', alt='')
+//
+   End Piwik Tracking Code 

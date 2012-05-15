@@ -1,0 +1,56 @@
+.content
+  .page-header(style="background-image: url('/uploads/#{brand.image}');")
+    h1#campaign-header
+      |#{campaign.title}
+
+  .campaign-image-container
+    
+    form(action="/submit")#contact
+      input(name='cid', value="#{campaign.id}").hidden
+      ul
+        li.name
+          label(for='name') Name
+          input(name='name')#name
+        li.email
+          label(for='email') Email
+          input(name='email')#email
+        li.phone
+          label(for='phone') Phone
+          input(name='phone')#phone
+        li.actions
+          a(href="#submit").pwk_conversion#form-submit Get Info!
+        li.notify
+            em.privacy We never share information without your permission.
+            em.bold Not a fan of email?  No problem!  
+            em.bold Just call us at <i>#{brand.phone}</i>
+    
+    img(src="/uploads/#{campaign.imgUrl}")#campaign-image
+  
+  div.campaign-text-container(data-column-number="#{counter}")
+    
+    -if(campaign.columnHeader1 && campaign.columnText1){
+      div.column
+        h1= campaign.columnHeader1
+        p=  campaign.columnText1
+        - if(campaign.columnImage1){
+        img(src="/uploads/#{campaign.columnImage1}")
+        -}
+    -}
+      
+    -if(campaign.columnHeader2 && campaign.columnText2){
+      div.column
+        h1= campaign.columnHeader2
+        p=  campaign.columnText2
+        - if(campaign.columnImage2){
+        img(src="/uploads/#{campaign.columnImage2}")
+        -}
+    -}
+
+    -if(campaign.columnHeader3 && campaign.columnText3){
+      div.column
+        h1= campaign.columnHeader3
+        p=  campaign.columnText3
+        - if(campaign.columnImage3){
+        img(src="/uploads/#{campaign.columnImage3}")
+       -}
+    -}

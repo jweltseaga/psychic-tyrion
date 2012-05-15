@@ -1,0 +1,97 @@
+@import '_mixins'
+
+body
+  background #333
+.app
+  width 100%
+  height 100%
+  .header
+    width 100%
+    h1
+      padding 30px 0px
+      font: italic 36px georgia, times, "times new roman", serif;
+      color: neon-blue;
+      text-shadow: 0 0 6px rgba(56, 187, 253, .7);
+      text-align center
+      background deep-purple
+      border-bottom 2px solid neon-blue
+  .body
+    width 100%
+    padding-top 85px
+    form#login_form
+      border:1px solid neon-blue
+      padding:10px
+      width 400px
+      margin 0 auto
+      background #f5f5f5
+      ul
+        padding 20px 15px 0px 15px
+        list-style-type none
+        li
+          height 50px
+          line-height 30px
+          label
+            padding-right 50px
+            padding-top 8px
+            color rgba(#254da5,.75)
+            font: italic 14px georgia, times, "times new roman", serif;
+            display:block
+            float:left
+            text-align right
+            width 100px
+            span 
+              font-style italics
+              font-size 9px
+              padding-left 5px
+          input:not(.btn)
+            padding 5px 2px
+            border:0px
+            background-color:#f5f5f5 !important
+            border-bottom:1px solid neon-blue
+            display:block
+            float:left
+            width 200px
+            &:-webkit-autofill
+              background-color:#f5f5f5 !important
+.actions
+  width 200px
+  margin-left:150px
+  .btn
+    display block
+    font: italic 12px georgia, times, "times new roman", serif;
+    line-height 32px
+    color: neon-blue
+    float left
+    width 90px
+    height 32px
+    text-align center
+    margin 0px 3px
+    border 1px solid #494573
+    background #fff
+    color #254da5
+    transition all 0.3s
+    box-shadow 1px 1px 3px rgba(#444.65)
+    &:hover
+      cursor pointer
+      background deep-purple
+      color #fff
+      box-shadow 1px 1px 3px #444
+  input.btn
+    height 34px 
+.alert-message
+  position absolute
+  width 450px
+  left 50%
+  margin-left -242px
+  top 125px
+  padding 15px
+  text-shadow: 0 0 6px rgba(56, 187, 253, .7);
+  text-align center
+  background deep-purple
+  color neon-blue
+  font-size 28px
+  box-shadow 1px 1px 3px #444
+  z-index 50
+  border 2px solid neon-blue
+            
+  

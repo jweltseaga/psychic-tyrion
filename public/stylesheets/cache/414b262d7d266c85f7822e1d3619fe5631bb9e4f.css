@@ -1,0 +1,78 @@
+// /stylesheets/reset.css
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{border:0;text-decoration:none;}
+*:focus{border:0}
+
+// /stylesheets/auth.css
+body{background:#333}
+.app{width:100%;height:100%;}
+.app .header{width:100%;}
+.app .header h1{padding:30px 0;font:italic 36px georgia,times,"times new roman",serif;color:#8fbfff;text-shadow:0 0 6px rgba(56,187,253,0.70);text-align:center;background:rgba(6,13,28,0.90);border-bottom:2px solid #8fbfff}
+.app .body{width:100%;padding-top:85px;}
+.app .body form#login_form{border:1px solid #8fbfff;padding:10px;width:400px;margin:0 auto;background:#f5f5f5;}
+.app .body form#login_form ul{padding:20px 15px 0 15px;list-style-type:none;}
+.app .body form#login_form ul li{height:50px;line-height:30px;}
+.app .body form#login_form ul li label{padding-right:50px;padding-top:8px;color:rgba(37,77,165,0.75);font:italic 14px georgia,times,"times new roman",serif;display:block;float:left;text-align:right;width:100px;}
+.app .body form#login_form ul li label span{font-style:italics;font-size:9px;padding-left:5px}
+.app .body form#login_form ul li input:not(.btn){padding:5px 2px;border:0;background-color:#f5f5f5 !important;border-bottom:1px solid #8fbfff;display:block;float:left;width:200px;}
+.app .body form#login_form ul li input:not(.btn):-webkit-autofill{background-color:#f5f5f5 !important}
+.actions{width:200px;margin-left:150px;}
+.actions .btn{display:block;font:italic 12px georgia,times,"times new roman",serif;line-height:32px;color:#8fbfff;float:left;width:90px;height:32px;text-align:center;margin:0 3px;border:1px solid #494573;background:#fff;color:#254da5;-ms-transition:all .3s;-webkit-transition:all .3s;-moz-transition:all .3s;-o-transition:all .3s;transition:all .3s;-webkit-box-shadow:1px 1px 3px #444;-moz-box-shadow:1px 1px 3px #444;box-shadow:1px 1px 3px #444;}
+html.ie8 .actions .btn,html.ie7 .actions .btn,html.ie6 .actions .btn{border:2px solid #444}
+.actions .btn:hover{cursor:pointer;background:rgba(6,13,28,0.90);color:#fff;-webkit-box-shadow:1px 1px 3px #444;-moz-box-shadow:1px 1px 3px #444;box-shadow:1px 1px 3px #444;}
+html.ie8 .actions .btn:hover,html.ie7 .actions .btn:hover,html.ie6 .actions .btn:hover{border:2px solid #444}
+.actions input.btn{height:34px}
+.alert-message{position:absolute;width:450px;left:50%;margin-left:-242px;top:125px;padding:15px;text-shadow:0 0 6px rgba(56,187,253,0.70);text-align:center;background:rgba(6,13,28,0.90);color:#8fbfff;font-size:28px;-webkit-box-shadow:1px 1px 3px #444;-moz-box-shadow:1px 1px 3px #444;box-shadow:1px 1px 3px #444;z-index:50;border:2px solid #8fbfff}
+html.ie8 .alert-message,html.ie7 .alert-message,html.ie6 .alert-message{border:2px solid #444}
+

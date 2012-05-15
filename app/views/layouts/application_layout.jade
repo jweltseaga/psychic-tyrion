@@ -1,0 +1,21 @@
+!!! 5
+html
+  head
+    title= title
+    != stylesheet_link_tag('reset', 'bootstrap.min', 'admin')
+    != javascript_include_tag('https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js', 'rails', 'admin')
+    != csrf_meta_tag()
+  body
+    .overlay
+    .showcase-container
+    .container-fluid
+      .left-pane
+        ul.fixed-nav
+          li
+            != link_to('Users', path_to.users())
+          li
+            != link_to('Campaigns', path_to.campaigns())
+          li
+            != link_to('Brands', path_to.brands())
+      .application
+        != body

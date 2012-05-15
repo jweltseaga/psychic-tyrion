@@ -1,0 +1,12 @@
+.app
+  .header
+    h1 Login
+  .body
+    - form_for(login, {action: path_to._verify, method: 'POST', id: "login_form"}, function (form) {
+      ul
+        != partial('auth/form.jade', {locals: {form: form}})
+        li.actions
+          != form.submit('Login', {class: 'btn primary'})
+          != link_to('Register', path_to.register, {class: 'btn'})
+    - });
+          

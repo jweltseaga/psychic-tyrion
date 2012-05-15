@@ -1,0 +1,332 @@
+
+[33mMon May 14 2012 14:43:59 GMT-0500 (CDT)[39m [1m1[22m
+[1mGET[22m [90m/campaigns/4fa41f45b34bf2f45f000015/edit[39m controller: [32mcampaigns[39m action: [34medit[39m
+Rendering [90mcampaigns/edit[39m using layout [90mapplication_layout[39m
+
+[33mMon May 14 2012 14:46:28 GMT-0500 (CDT)[39m [1m1[22m
+[1mGET[22m [90m/campaigns[39m controller: [32mcampaigns[39m action: [34mindex[39m
+Rendering [90mcampaigns/index[39m using layout [90mapplication_layout[39m
+
+[33mMon May 14 2012 14:46:41 GMT-0500 (CDT)[39m [1m1[22m
+[1mGET[22m [90m/campaigns/4fad7880bff67edd4700004b/edit[39m controller: [32mcampaigns[39m action: [34medit[39m
+Rendering [90mcampaigns/edit[39m using layout [90mapplication_layout[39m
+
+[33mMon May 14 2012 14:46:43 GMT-0500 (CDT)[39m [1m1[22m
+[1mGET[22m [90m/campaigns/4fad7880bff67edd4700004b/edit[39m controller: [32mcampaigns[39m action: [34medit[39m
+Rendering [90mcampaigns/edit[39m using layout [90mapplication_layout[39m
+
+[33mMon May 14 2012 14:46:44 GMT-0500 (CDT)[39m [1m1[22m
+[1mGET[22m [90m/campaigns/4fad7880bff67edd4700004b/edit[39m controller: [32mcampaigns[39m action: [34medit[39m
+Rendering [90mcampaigns/edit[39m using layout [90mapplication_layout[39m
+
+[33mMon May 14 2012 14:53:05 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 15:04:34 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 15:04:34 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 15:21:59 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 15:30:05 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 15:34:10 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 15:41:48 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:03:33 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:40:11 GMT-0500 (CDT)[39m [1m2[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:34 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+
+[33mMon May 14 2012 16:50:34 GMT-0500 (CDT)[39m [1m3[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m3[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m2[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m4[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m5[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m6[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m7[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m8[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m9[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m3[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m4[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m5[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m6[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:35 GMT-0500 (CDT)[39m [1m7[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:36 GMT-0500 (CDT)[39m [1m8[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:36 GMT-0500 (CDT)[39m [1m9[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:36 GMT-0500 (CDT)[39m [1m3[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:36 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:36 GMT-0500 (CDT)[39m [1m4[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:36 GMT-0500 (CDT)[39m [1m5[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:37 GMT-0500 (CDT)[39m [1m6[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:37 GMT-0500 (CDT)[39m [1m7[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:50:45 GMT-0500 (CDT)[39m [1m8[22m
+[1mGET[22m [90m/e/marley-seaga-coffee[39m controller: [32mclient[39m action: [34mdisplay[39m
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:52:40 GMT-0500 (CDT)[39m [1m9[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:52:42 GMT-0500 (CDT)[39m [1m3[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 16:52:43 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 17:02:02 GMT-0500 (CDT)[39m [1m10[22m
+[1mGET[22m [90m/anniversary?pk_campaign=VendingHQ-AnniversarySpecial[39m controller: [32mdeprecated[39m action: [34manniversary[39m
+[1mQuery: [22m{"pk_campaign":"VendingHQ-AnniversarySpecial"}
+Rendering [90mdeprecated/anniversary[39m using layout [90mdeprecated_layout[39m
+
+[33mMon May 14 2012 17:02:03 GMT-0500 (CDT)[39m [1m4[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 17:18:45 GMT-0500 (CDT)[39m [1m5[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 17:18:45 GMT-0500 (CDT)[39m [1m6[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 17:18:45 GMT-0500 (CDT)[39m [1m7[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 17:18:46 GMT-0500 (CDT)[39m [1m8[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 18:09:51 GMT-0500 (CDT)[39m [1m9[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 18:09:53 GMT-0500 (CDT)[39m [1m3[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 19:46:27 GMT-0500 (CDT)[39m [1m2[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Marley-Coffee-Front-Bottom-Bar[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Marley-Coffee-Front-Bottom-Bar"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 20:03:39 GMT-0500 (CDT)[39m [1m4[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 21:35:20 GMT-0500 (CDT)[39m [1m5[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Twitter-5-11-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Twitter-5-11-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mMon May 14 2012 21:36:24 GMT-0500 (CDT)[39m [1m6[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Twitter-5-11-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Twitter-5-11-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mTue May 15 2012 00:54:27 GMT-0500 (CDT)[39m [1m7[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mTue May 15 2012 01:05:49 GMT-0500 (CDT)[39m [1m8[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mTue May 15 2012 02:15:11 GMT-0500 (CDT)[39m [1m9[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mTue May 15 2012 02:15:11 GMT-0500 (CDT)[39m [1m3[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mTue May 15 2012 02:15:11 GMT-0500 (CDT)[39m [1m2[22m
+[1mHEAD[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+[1mBody:  [22m{}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mTue May 15 2012 02:15:11 GMT-0500 (CDT)[39m [1m4[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mTue May 15 2012 07:11:46 GMT-0500 (CDT)[39m [1m5[22m
+[1mGET[22m [90m/e/atlante-premiere?pk_campaign=twitter-5-4-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"twitter-5-4-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mTue May 15 2012 08:04:17 GMT-0500 (CDT)[39m [1m6[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Facebook-5-14-2012[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Facebook-5-14-2012"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mTue May 15 2012 08:44:58 GMT-0500 (CDT)[39m [1m7[22m
+[1mGET[22m [90m/e/atlante-premiere?pk_campaign=Front-Banner[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Front-Banner"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m
+
+[33mTue May 15 2012 08:45:39 GMT-0500 (CDT)[39m [1m8[22m
+[1mGET[22m [90m/e/marley-seaga-coffee?pk_campaign=Marley-Coffee-Front-Bottom-Bar[39m controller: [32mclient[39m action: [34mdisplay[39m
+[1mQuery: [22m{"pk_campaign":"Marley-Coffee-Front-Bottom-Bar"}
+Rendering [90mclient/display[39m using layout [90mclient_layout[39m

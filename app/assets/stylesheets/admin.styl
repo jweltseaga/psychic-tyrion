@@ -1,0 +1,282 @@
+@import '_mixins'
+
+a:hover
+  text-decoration none
+
+.overlay
+  position:fixed
+  height:100%
+  width:100%
+  display:none
+  background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.34) 16%, rgba(0,0,0,0.34) 18%, rgba(0,0,0,0.34) 23%, rgba(0,0,0,0.51) 55%, rgba(0,0,0,0.65) 83%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(16%,rgba(0,0,0,0.34)), color-stop(18%,rgba(0,0,0,0.34)), color-stop(23%,rgba(0,0,0,0.34)), color-stop(55%,rgba(0,0,0,0.51)), color-stop(83%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.34) 16%,rgba(0,0,0,0.34) 18%,rgba(0,0,0,0.34) 23%,rgba(0,0,0,0.51) 55%,rgba(0,0,0,0.65) 83%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,0.34) 16%,rgba(0,0,0,0.34) 18%,rgba(0,0,0,0.34) 23%,rgba(0,0,0,0.51) 55%,rgba(0,0,0,0.65) 83%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0.34) 16%,rgba(0,0,0,0.34) 18%,rgba(0,0,0,0.34) 23%,rgba(0,0,0,0.51) 55%,rgba(0,0,0,0.65) 83%); /* IE10+ */
+  background: radial-gradient(center, ellipse cover, rgba(0,0,0,0.34) 16%,rgba(0,0,0,0.34) 18%,rgba(0,0,0,0.34) 23%,rgba(0,0,0,0.51) 55%,rgba(0,0,0,0.65) 83%); /* W3C */
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  padding: 20px;
+  padding-bottom: 130px;
+  right: 0;
+  top: 00px;
+  z-index: 100;
+
+.showcase-container
+  display:none
+  left:50%
+  margin-left -425px
+  width 800px
+  z-index:101
+  position:fixed
+  -webkit-box-shadow: -10px 10px 40px #010c12, inset -2px 2px 4px rgba(66,66,66,.35), inset 2px -2px 4px rgba(66,66,66,.35);
+  background rgba(#f5f5f5,1.0)
+  padding 25px
+  top 0px
+
+  .showcase-img
+    max-width 800px
+
+.page-header
+  border 0px
+  padding-bottom 0px
+  padding-left 15px
+  h1
+    color #5C6166
+    font-family 'Segoe UI', Tahoma, sans-serif
+    font-size 20px
+    padding-left 10px
+  h5
+    color lighten(#5C6166,20)
+    font-family 'Segoe UI', Tahoma, sans-serif
+    font-size 14px
+    padding 10px 0px 10px 10px
+
+.container-fluid
+  padding 0
+  margin 0
+  
+  > .left-pane
+    width 140px
+    position fixed
+    height 100%
+
+    .fixed-nav
+      list-style-type none
+      margin 0px
+      margin-top 65px
+      > li
+        > a
+          border-left 1px solid darken(#c0c0c0,35)
+          display block
+          padding-left 10px
+          padding 5px 0px 5px 10px
+          transition all 0.3s
+          color darken(#c0c0c0,10)
+          &:hover
+            color darken(#c0c0c0, 20)
+            border-left 6px solid darken(#c0c0c0,35)
+            text-decoration none
+
+
+  > .application
+    margin-left 130px
+    min-width 844px
+
+label
+  font-weight bold
+  padding 5px 0px
+  curvy-font 12px
+  color darken(#c0c0c0,35)
+  .info
+    margin-left 5px
+    font-size 9px
+    font-family arial
+
+textarea
+  border-radius 0px
+
+input
+  margin-bottom 0px
+  border-radius 0px
+  
+  &#Campaign_salesEmail
+    width 200px
+
+.user
+  width 150px
+  padding-left 10px
+
+
+form
+  min-width 700px
+  position relative
+  .clearfix
+    padding 10px 0px 10px 10px
+    margin-left 20px
+
+  .current-campaign-banner
+    max-width 400px
+    max-height 200px
+    border 1px solid #f5f5f5
+    position absolute
+    top 15px
+    left 385px
+   
+  .actions
+    button, a
+      border 1px solid #fff
+      padding 10px 15px
+      margin 0px 10px
+      border-radius 0px
+
+.content
+  margin 10px 0px
+  .row
+    padding 10px
+
+
+
+.actions
+  padding 20px 30px
+
+
+#User_passwordCheck
+  margin-left 10px
+
+.row
+  padding 5px 0px
+  margin 15px 0px 5px 0px
+  background #f9f9f9
+  border 1px solid #f5f5f5
+  padding 10px 0px 10px 15px
+  margin 10px 0px
+    
+  .span3
+    min-width 220px
+    margin 0px
+    padding-right 20px
+    
+    label
+      text-align center
+    
+    input, textarea 
+      margin-left 20px
+      margin-bottom 5px
+      padding 5px
+    
+    textarea
+      min-height 150px
+  
+  :first-child.span
+    margin-right 20px
+    font-weight bold
+    width 140px
+    height 60px
+    overflow hidden
+
+
+  .span
+    padding-right 5px
+    text-align left
+    font-size 10px
+    margin-left 10px
+    min-width 140px
+
+  .img-preview
+    img
+      width 100px
+
+
+  
+  [class*='span']
+    line-height 60px
+  
+
+.action
+  box-shadow inset 1px 1px 5px rgba(20,20,20,.35), inset -1px -1px 5px rgba(20,20,20,.35), 1px 1px 5px rgba(20,20,20,.35), -1px -1px 5px rgba(20,20,20,.35)
+  border 1px solid #fff
+  line-height 20px
+  text-align center
+  display inline-block
+  margin 5px
+  padding 6px 10px
+  transition 0.3s all
+  background #c0c0c0
+  color #fff
+  min-width 60px
+  font-size 12px
+
+  &:hover
+    color darken(#c0c0c0,20)
+    background #fff
+
+  &.danger
+    background rgba(darken(red,15), .65)
+    
+    &:hover
+      background rgba(darken(red,15), .85)
+      border 1px solid rgba(darken(red,15), .65) 
+      color #fff
+
+  &.info
+    background rgba(37, 77, 165, .65)
+    
+    &:hover
+      background rgba(37, 77, 165, .95)
+      border 1px solid rgba(37, 77, 165, .65)
+      color #fff
+
+  &.primary
+    background rgba(83, 128, 24, .65)
+    
+    &:hover
+      background rgba(83, 128, 24, .85)
+      border 1px solid rgba(83, 128, 24, .95)
+      color #fff
+
+.rw-options
+  margin-left 10px
+  padding 20px 10px
+  width 600px
+  .option
+    padding 5px 
+    margin 3px
+    cursor pointer
+    float left
+    width 100px
+    text-align center
+    transition 0.3s all
+
+    &[data-state='active']
+      color #fff
+      background rgba(37, 77, 165, .55)
+      border 1px solid rgba(37, 77, 165, .85)
+
+    &[data-state='inactive']
+      border 1px solid #c0c0c0
+      background #f5f5f5
+      color darken(#c0c0c0,30)
+
+      &:hover
+        background darken(#f5f5f5,5)
+
+
+p.info
+  display block
+  padding 10px 0px
+  margin-left 25px
+  color darken(#c0c0c0, 30)
+  font-style italic
+
+  &:first-line
+    font-size 1.05em
+    font-weight bold
+    font-style none
+    darken(#c0c0c0,45)
+    line-height 20px
+
+.page-header
+  img.brand-image
+    padding 20px

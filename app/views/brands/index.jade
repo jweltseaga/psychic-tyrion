@@ -1,0 +1,16 @@
+.page-header
+	h1 Brands
+	
+.content
+- for brand in brands
+	.row
+		.span
+			img(src="/uploads/#{brand.image}")
+		.span= brand.name
+		.span
+			!= link_to('Edit', path_to.edit_brand(brand), {class: 'action info'}) + ' '
+			!= link_to('Delete', path_to.brand(brand), {class: 'action danger', method: 'delete', remote: true, jsonp: '(function (u) {location.href = u;})'})
+
+
+.actions
+	!= link_to('New Brand', path_to.new_brand(), {class: 'action primary'})

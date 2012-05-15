@@ -1,0 +1,12 @@
+.page-header
+	h1 Edit #{brand.name}
+	- if(brand.image){
+		img(src="/uploads/#{brand.image}").brand-image
+	- }
+
+- form_for(brand, {action: path_to.brand(brand), method: 'PUT', id: "brand_form", enctype: 'multipart/form-data'}, function (form) {
+	!= partial('brands/form.jade', {locals: {form: form, brand: brand}})
+	.actions
+		!= form.submit('Update', {class: 'action primary'})
+		!= link_to('Cancel', path_to.brand(brand), {class: 'action danger'})
+- });

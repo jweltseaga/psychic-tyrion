@@ -1,0 +1,23 @@
+.page-header
+  h1 New Campaign
+
+.clearfix
+    p.info
+      | Click a brand to add it to this campaign. </br>
+      | This affects the logo used, the default email, and the phone number displayed for the Campaign. </br>
+      | The change is instantaneous.
+      
+    .rw-options(data-checkState="new", data-field='brand', data-structure='Campaign')
+      - for brand in brands
+        - if(campaign.brand){
+        - var state = (brand.id == campaign.brand) ? 'active' : 'inactive';
+        - }else{ var state = 'inactive'}
+        .option(data-id="#{brand.id}", data-state='#{state}')
+            | #{brand.name}
+
+- form_for(campaign, {action: path_to.campaigns(), method: 'POST', id: "campaign_form", enctype: 'multipart/form-data'}, function (form) {
+  != partial('campaigns/form.jade', {locals: {form: form, campaign: campaign, brand: brand, brands: brands}})
+  .actions
+    != form.submit('Create', {class: 'action primary'})
+    != link_to('Cancel', path_to.campaigns(), {class: 'action danger'})
+- });

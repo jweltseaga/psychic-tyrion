@@ -1,0 +1,22 @@
+.page-header
+  h1 Campaigns
+
+
+.content
+  - for campaign in campaigns
+    .row
+      .span= campaign.title     
+      .span
+        a(href="/e/#{campaign.slug}", target='_blank')= "/"+campaign.slug
+      .span
+        a(href="#", data-img="#{campaign.imgUrl}").img-preview
+          img(src="/uploads/#{campaign.imgUrl}")
+      .span= campaign.salesEmail
+      .span
+        != link_to('Edit', path_to.edit_campaign(campaign), {class: 'action info'}) 
+        != link_to('Delete', path_to.campaign(campaign), {class: 'action danger', method: 'delete', remote: true, jsonp: '(function (u) {location.href = u;})'})
+
+
+
+  .actions
+    != link_to('New Campaign', path_to.new_campaign(), {class: 'action primary'})
